@@ -9,7 +9,7 @@
   </div>  -->
   <div class="flex">
     <div  class="mx-auto  ">
-      <button :class="{btnDark:darkM}" @click="onOff(dec)">{{ dec }}</button>
+      <button :class="{btnDark:darkM}" class="border border-red-500" @click="onOff(dec)">{{ dec }}</button>
 
     </div>
   </div>
