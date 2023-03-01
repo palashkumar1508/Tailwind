@@ -13,34 +13,34 @@
  
   <div class="flex">
     <div  class="mx-auto  ">
-      <button :class="{btnDark:darkM}" @click="onOff(dec)">{{ dec }}</button>
+      <button :class="{btnDark:darkM}" class="border border-red-700 rounded-3xl bg-black text-white" @click="onOff(dec)">{{ dec }}</button>
 
     </div>
   </div>
 
   <div :class="{bcDark:darkM}" class="container rounded-md  px-8 py-8 ">
     <div :class="{fontD:darkM}" class="h-800 rounded-2xl py-2 px-2 text-center text-white  bg-red-500 grid lg:grid-cols-4 sm:grid-cols-2 gap-2 md:grid-cols-3 ">
-      <p :class="{bcDark:darkM}" class="  py-3 md:col-span-full lg:col-span-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae praesentium nesciunt ab ad autem placeat expedita iste pariatur eveniet debitis!</p>
-      <p :class="{bcDark:darkM}" class="line-clamp-2 h-auto text-center py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, et ipsam facilis impedit eius quisquam.</p>
-      <p :class="{bcDark:darkM}" class="line-clamp-3 py-3 md:col-span-2 lg:col-span-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae molestias iste doloremque? Voluptates, dolorem tempore!</p>
-      <p :class="{bcDark:darkM}" class=" py-3 md:col-span-2 lg:col-span-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est consequuntur expedita magnam explicabo veniam adipisci dolore repudiandae accusamus.</p>
-      <p :class="{bcDark:darkM}" class=" py-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, dolore a. Repellendus iure reiciendis saepe iste.</p>
-      <p :class="{bcDark:darkM}" class=" py-3 " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro reiciendis deleniti unde iste eum pariatur dolor dolorem.</p>
-      <p :class="{bcDark:darkM}" class=" py-3 md:col-span-2 lg:col-span-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse nisi magnam error cumque?</p>
-      <p :class="{bcDark:darkM}" class=" py-3 md:col-span-full lg:col-span-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sit rem aperiam reprehenderit nostrum! </p>
+      <p :class="{bcDark:darkM}" class=" line-clamp-3 py-1  md:col-span-full lg:col-span-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae praesentium nesciunt ab ad autem placeat expedita iste pariatur eveniet debitis!</p>
+      <p :class="{bcDark:darkM}" class="line-clamp-3 h-auto text-center py-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, et ipsam facilis impedit eius quisquam.</p>
+      <p :class="{bcDark:darkM}" class="line-clamp-3 py-1 md:col-span-2 lg:col-span-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae molestias iste doloremque? Voluptates, dolorem tempore!</p>
+      <p :class="{bcDark:darkM}" class="line-clamp-3 py-1 md:col-span-2 lg:col-span-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est consequuntur expedita magnam explicabo veniam adipisci dolore repudiandae accusamus.</p>
+      <p :class="{bcDark:darkM}" class="line-clamp-3 py-1 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, dolore a. Repellendus iure reiciendis saepe iste.</p>
+      <p :class="{bcDark:darkM}" class="line-clamp-3 py-1 " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro reiciendis deleniti unde iste eum pariatur dolor dolorem.</p>
+      <p :class="{bcDark:darkM}" class="line-clamp-3 py-1 md:col-span-2 lg:col-span-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse nisi magnam error cumque?</p>
+      <p :class="{bcDark:darkM}" class="line-clamp-3 py-1 md:col-span-full lg:col-span-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sit rem aperiam reprehenderit nostrum! </p>
     </div> 
   </div>
 
   <div :class="{grayD:darkM}" class="mt-[100px] rounded-2xl container  px-8 py-8 ">
     <div :class="{fontD:darkM}" class="h-800 py-2 hover:p-5 text-center rounded-3xl px-2 text-white  bg-red-500 grid lg:grid-cols-4 sm:grid-cols-2 gap-2 md:grid-cols-6 ">
-      <p :class="{grayD:darkM}" class=" py-1 md:col-start-2 md:col-end-6 lg:col-span-1 hover:p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae praesentium nesciunt ab ad autem placeat expedita iste pariatur eveniet debitis!</p>
-      <p :class="{grayD:darkM}" class=" md:col-start-1 md:col-end-3 lg:col-span-1 py-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, et ipsam facilis impedit eius quisquam.</p>
-      <p :class="{grayD:darkM}" class=" py-1 md:col-start-5 md:col-end-7 lg:col-span-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae molestias iste doloremque? Voluptates, dolorem tempore!</p>
-      <p :class="{grayD:darkM}" class=" py-1 md:col-start-2 md:col-end-6 lg:col-span-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est consequuntur expedita magnam explicabo veniam adipisci dolore repudiandae accusamus.</p>
-      <p :class="{grayD:darkM}" class=" py-1 md:col-start-1 md:col-end-3 lg:col-span-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, dolore a. Repellendus iure reiciendis saepe iste.</p>
-      <p :class="{grayD:darkM}" class=" py-1 md:col-start-5 md:col-end-7 lg:col-span-1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro reiciendis deleniti unde iste eum pariatur dolor dolorem.</p>
-      <p :class="{grayD:darkM}" class=" py-1 md:col-start-2 md:col-end-4 lg:col-span-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse nisi magnam error cumque?</p>
-      <p :class="{grayD:darkM}" class=" py-1 md:col-start-4 md:col-end-6 lg:col-span-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sit rem aperiam reprehenderit nostrum! </p>
+      <p :class="{grayD:darkM}" class="line-clamp-3 py-1 md:col-start-2 md:col-end-6 lg:col-span-1 hover:p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae praesentium nesciunt ab ad autem placeat expedita iste pariatur eveniet debitis!</p>
+      <p :class="{grayD:darkM}" class="line-clamp-3 md:col-start-1 md:col-end-3 lg:col-span-1 py-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, et ipsam facilis impedit eius quisquam.</p>
+      <p :class="{grayD:darkM}" class="line-clamp-3 py-1 md:col-start-5 md:col-end-7 lg:col-span-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae molestias iste doloremque? Voluptates, dolorem tempore!</p>
+      <p :class="{grayD:darkM}" class="line-clamp-3 py-1 md:col-start-2 md:col-end-6 lg:col-span-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est consequuntur expedita magnam explicabo veniam adipisci dolore repudiandae accusamus.</p>
+      <p :class="{grayD:darkM}" class="line-clamp-3 py-1 md:col-start-1 md:col-end-3 lg:col-span-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, dolore a. Repellendus iure reiciendis saepe iste.</p>
+      <p :class="{grayD:darkM}" class="line-clamp-3 py-1 md:col-start-5 md:col-end-7 lg:col-span-1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro reiciendis deleniti unde iste eum pariatur dolor dolorem.</p>
+      <p :class="{grayD:darkM}" class="line-clamp-3 py-1 md:col-start-2 md:col-end-4 lg:col-span-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse nisi magnam error cumque?</p>
+      <p :class="{grayD:darkM}" class="line-clamp-3 py-1 md:col-start-4 md:col-end-6 lg:col-span-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sit rem aperiam reprehenderit nostrum! </p>
     </div> 
   </div>
 
@@ -89,11 +89,11 @@
   }
 
   .btnDark {
-    @apply bg-black text-white mb-4
+    @apply bg-red-600 text-white mb-4 border border-white
   }
 
   .grayD{
-    @apply bg-black text-pink-200
+    @apply bg-black text-pink-100
   }
 
 </style>
